@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2{
+    font-family: "Open Sans", serif;
+    }
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+header {
+    background-color: rgb(253, 143, 159);;
+    color:rgb(187, 5, 5);;
+    font-weight: bolder;
+    padding: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: auto;
+    height: 100px;
+    display: block;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgb(187, 5, 5);;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container  {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 339px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+    background-color: rgb(253, 143, 159);
+    color: rgb(187, 5, 5);
+    padding: 5px;
+    font-weight: 700;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 32px;
+}
+
+section ul a {
+    text-decoration: none;
+    display: inline;
+    margin: 16px;
+}
+
+.store-front {
+    display: flex;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+section .container{
+    display: block;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    background-color: lightblue;
+    color: black;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.contact-methods {
+    display: inline;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: lightcoral;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:blue;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(5, 9, 250);
+}
+
+.social-links img {
+    height: 24px;
+    margin-top: 8px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+section h3 {
+    margin: 16px 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(253, 143, 159);
+    color: rgb(187, 5, 5);
+    padding: 20px;
+    font-weight: 700;
+}
